@@ -25,3 +25,7 @@ Aplicação de treinos desenvolvida em Python (execução via terminal).
 
 ## Resultado esperado
 O sistema deve gerar corretamente o plano de treino com cargas e repetições.
+
+## Evidência
+![Evidência Jira](../evidencias/CT-001_jira_concluido.png)
+
