@@ -15,4 +15,4 @@ Demonstrar conhecimentos em QA manual, incluindo:
 - Python (aplicação testada)
 - Markdown (documentação)
 
-## Estrutura do projeto
+## Estrutura do projeto 
