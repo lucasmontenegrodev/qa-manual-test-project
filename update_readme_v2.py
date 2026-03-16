@@ -1,4 +1,6 @@
-# QA Manual Test Project
+import os
+
+README = """# QA Manual Test Project
 
 Projeto de testes manuais documentados cobrindo fluxos criticos de um e-commerce. Inclui Test Cases, Bug Reports e rastreabilidade completa via Jira.
 
@@ -84,3 +86,13 @@ User Story (Jira)
 | Chrome DevTools | Evidencias e logs de rede |
 | Markdown | Documentacao dos test cases e bug reports |
 | Excel | Visao geral em formato de matriz (planilha/) |
+"""
+
+with open("README.md", "w", encoding="utf-8") as f:
+    f.write(README.strip())
+
+print("README.md atualizado com 14 TCs.")
+print("\nProximos passos:")
+print("  git add README.md")
+print('  git commit -m "docs: atualiza README com TC-010 a TC-014"')
+print("  git push")
